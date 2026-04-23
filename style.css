@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif; /* [cite: 193] */
+    text-align: center;
+}
+
+section {
+    border: solid #2880b9; /* [cite: 206] */
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.box {
+    background-color: #2880b9; /* [cite: 202] */
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pendaftaran, .back {
+    background-color: #2880b9; /* [cite: 247] */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.pendaftaran a, .back a {
+    color: white;
+    text-decoration: none; /* [cite: 250] */
+}
+
+
+
+
+/* Styling tambahan untuk gambar hobi */
+.foto-hobi img {
+    border-radius: 10px; /* Membuat sudut gambar melengkung */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Memberikan efek bayangan */
+    margin: 15px 0;
+    max-width: 100%; /* Agar gambar responsif */
+    height: auto;
+}
