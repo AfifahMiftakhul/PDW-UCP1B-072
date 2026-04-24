@@ -32,13 +32,21 @@ section {
 }
 
 
-
-
-/* Styling tambahan untuk gambar hobi */
-.foto-hobi img {
+.foto-tentang img {
     border-radius: 10px; /* Membuat sudut gambar melengkung */
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Memberikan efek bayangan */
     margin: 15px 0;
     max-width: 100%; /* Agar gambar responsif */
+    height: auto;
+}
+
+.video-container {
+    margin: 15px 0;
+}
+
+video {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    max-width: 100%;
     height: auto;
 }
